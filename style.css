@@ -875,22 +875,24 @@ PROMO
     color: white;
     font-size: 30px;
     font-weight: 700;
-    width: 500px;
+    width: 100%;
+    max-width: 700px;
 }
 
 .promo__info--buttons{
     display: flex;
 }
 
+.promo__info--polka{
+    display: flex;
+}
+
 .info__polka--bottom{
-    top: 175px;
-    left: -55px;
+    transform: translate(-1200px, -40px);
 }
 
 .info__polka--top{
-    bottom: 305px;
-    left: 725px;
-    position: sticky;
+    transform: translate(-70px, -380px);
 }
 
 .info__polka{
@@ -1174,10 +1176,13 @@ FOOTER
         font-size: 16px;
     }
 
-    /* .info__polka--top{
-    bottom: 305px;
-    left: 725px;
-    } */
+    .info__polka--bottom{
+        transform: translate(-545px, -75px);
+    }
+
+    .info__polka--top{
+        transform: translate(245px, -505px);
+    }
 }
 
 
@@ -1285,6 +1290,14 @@ FOOTER
     .header__email{
     max-width: 1200px;
     }
+
+    .info__polka--bottom{
+        transform: translate(-545px, -75px);
+    }
+
+    .info__polka--top{
+        transform: translate(245px, -505px);
+    }
 }
 
 @media (max-width: 640px){
@@ -1331,5 +1344,13 @@ FOOTER
         height: 60px;
 
         /* max-width: 150px;*/
+    }
+
+    .info__polka--bottom{
+        transform: translate(-350px, -85px);
+    }
+
+    .info__polka--top{
+        transform: translate(50px, -535px);
     }
 }
