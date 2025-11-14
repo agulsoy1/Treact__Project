@@ -1019,22 +1019,22 @@ PROMO
 
 .promo__polka--bottom{
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    max-width: 100px;
-    /* height: 100%; */
-    transform: translate(-75px, 100px);
+    bottom: 0px;
+    left: 0px;
+    height: 20rem;
+    width: 20rem;
+    transform: translate(-5rem, 8rem);
 }
 
 .promo__polka--top{
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    height: 20rem;
+    width: 20rem;
     max-width: 100px;
-    /* height: 100%; */
-    transform: translate(1050px, -250px);
+    /* transform: translate(100px, 100px); */
+    transform: translate(5rem, -16rem);
 }
 
 /*
@@ -1169,16 +1169,20 @@ FOOTER
 
 .footer__polka--top{
     position: absolute;
-    /* width: 100%; */
+    top: 0;
+    right: 0;
+    width: 20rem;
+    height: 20rem;
     transform: translate(-700px, -550px);
-    /* margin: -500px -700px; */
-    /* transform: translate(-700px, -550px); */
 }
 
 .footer__polka--bottom{
     position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 20rem;
+    height: 20rem;
     transform: translate(1725px, -25px);
-    /* transform: translate(1725px, -25px); */
 }
 
 
@@ -1255,23 +1259,9 @@ FOOTER
 
     /* PROMO */
 
-    .promo__polka--bottom{
-        transform: translate(-60px, 105px);
-    }
 
-    .promo__polka--top{
-        transform: translate(975px, -245px);
-    }
 
     /* FOOTER */
-
-    .footer__polka--bottom{
-        transform: translate(1050px, -25px);
-    }
-
-    .footer__polka--top{
-        transform: translate(-100px, -545px);
-    }
 
 }
 
@@ -1475,27 +1465,12 @@ FOOTER
         padding: 18px 32px;
     }
 
-    .promo__polka--bottom{
-        transform: translate(-60px, 175px);
-    }
-
-    .promo__polka--top{
-        transform: translate(-100px, -1500px);
-    }
 
     /* FOOTER */
 
     .footer__section{
         padding-bottom: 75px;
         padding-top: 50px;
-    }
-
-    .footer__polka--bottom{
-        transform: translate(1050px, -25px);
-    }
-
-    .footer__polka--top{
-        transform: translate(-100px, -545px);
     }
 
 }
@@ -1659,13 +1634,7 @@ FOOTER
 
     /* PROMO */
 
-    .promo__polka--bottom{
-        transform: translate(-545px, -75px);
-    }
 
-    .promo__polka--top{
-        transform: translate(245px, -505px);
-    }
 
     /* FOOTER */
 
@@ -1845,14 +1814,6 @@ FOOTER
 
     .promo__button--start{
         margin-bottom: 16px;
-    }
-
-    .promo__polka--bottom{
-        transform: translate(-350px, -85px);
-    }
-
-    .promo__polka--top{
-        transform: translate(50px, -535px);
     }
 
     /* FOOTER */
